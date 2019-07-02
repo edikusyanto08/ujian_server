@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2374d912-19e9-44cf-b931-4f9694341dec" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Quiz.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Quiz.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="1233" column="122" lean-forward="false" selection-start-line="1233" selection-start-column="122" selection-end-line="1233" selection-end-column="122" />
+              <folding>
+                <marker date="1556075400952" expanded="true" signature="1288:1797" ph="SELECT q.qui... tb_quiz" />
+                <marker date="1556075400952" expanded="true" signature="2104:2392" ph="SELECT qm.ma... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="3019:3563" ph="SELECT m.map... tb_mapel" />
+                <marker date="1556075400952" expanded="true" signature="3230:3481" ph="SELECT m2.ma... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="6715:7077" ph="SELECT q.qui... tb_quiz" />
+                <marker date="1556075400952" expanded="true" signature="7187:7469" ph="SELECT qm.ma... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="12755:13243" ph="SELECT qm.qm... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="23124:23561" ph="SELECT sr.sr... tb_server_ruang" />
+                <marker date="1556075400952" expanded="true" signature="23949:24298" ph="SELECT s.sis... tb_ruang_member" />
+                <marker date="1556075400952" expanded="true" signature="26897:27096" ph="SELECT qm.qm... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="29173:29372" ph="SELECT qm.qm... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="30284:30474" ph="SELECT qm.qm... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="30927:31699" ph="SELECT s.sis... tb_ruang_member" />
+                <marker date="1556075400952" expanded="true" signature="31819:32523" ph="SELECT s.sis... tb_ruang_member" />
+                <marker date="1556075400952" expanded="true" signature="38953:39273" ph="SELECT qm.qm... tb_quiz_mapel" />
+                <marker date="1556075400952" expanded="true" signature="41655:42070" ph="SELECT s.soa... tb_soal" />
+                <marker date="1556075400952" expanded="true" signature="43936:44508" ph="SELECT s.sis... tb_ruang_member" />
+                <marker date="1556075400952" expanded="true" signature="44667:45212" ph="SELECT s.sis... tb_ruang_member" />
+                <marker date="1556075400952" expanded="true" signature="46116:46555" ph="SELECT pg.pg... tb_quiz_hasil" />
+                <marker date="1556075400952" expanded="true" signature="49457:49872" ph="SELECT s.soa... tb_soal" />
+                <marker date="1556075400952" expanded="true" signature="51389:51827" ph="SELECT s.sis... tb_siswa" />
+                <marker date="1556075400952" expanded="true" signature="52918:53372" ph="SELECT pg.pg... tb_quiz_hasil" />
+                <marker date="1556075400952" expanded="true" signature="57752:58206" ph="SELECT pg.pg... tb_quiz_hasil" />
+                <marker date="1556075400952" expanded="true" signature="63260:63720" ph="SELECT s.sis... tb_server" />
+                <marker date="1556075400952" expanded="true" signature="64338:64806" ph="SELECT m.map... tb_quiz" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/quiz/data_home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+              <folding>
+                <marker date="1556070212251" expanded="true" signature="485:571" ph="..." />
+                <marker date="1556070212251" expanded="true" signature="485:601" ph="..." />
+                <marker date="1556070212251" expanded="true" signature="485:750" ph="..." />
+                <marker date="1556070212251" expanded="false" signature="977:983" ph=" " />
+                <marker date="1556070212251" expanded="false" signature="1133:1139" ph=" " />
+                <marker date="1556070212251" expanded="true" signature="1270:1302" ph="..." />
+                <marker date="1556070212251" expanded="true" signature="1270:2063" ph="..." />
+                <marker date="1556070212251" expanded="true" signature="2105:2427" ph="..." />
+                <marker date="1556070212251" expanded="true" signature="2166:2405" ph="{...}" />
+                <marker date="1556070212251" expanded="true" signature="2266:2328" ph="{...}" />
+                <marker date="1556070212251" expanded="true" signature="2334:2399" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/quiz/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="192" column="105" lean-forward="false" selection-start-line="192" selection-start-column="105" selection-end-line="192" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bank_soal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/mapel/bank_soal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="127" column="42" lean-forward="true" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_bank_soal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/mapel/data_bank_soal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="41" column="47" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="41" selection-end-column="47" />
+              <folding>
+                <marker date="1550887482000" expanded="true" signature="1134:1950" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cetak_kartu_soal.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/quiz/cetak_kartu_soal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="186" column="60" lean-forward="false" selection-start-line="186" selection-start-column="60" selection-end-line="186" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#2;n#table#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#table#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1556075547994" expanded="true" signature="9574:9689" ph="..." />
+                <marker date="1556075547994" expanded="true" signature="9599:9664" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>distri</find>
+      <find>data_</find>
+      <find>distrib</find>
+      <find>return 404;</find>
+      <find>upload</find>
+      <find>icbxall</find>
+      <find>add_soal</find>
+      <find>down</find>
+      <find>../fonts/</find>
+      <find>load_mapel</find>
+      <find>$dtDstSoal</find>
+      <find>import</find>
+      <find>data_pese</find>
+      <find>download</find>
+      <find>merge</find>
+      <find>$this-&gt;db-&gt;</find>
+      <find>&lt;=&gt;</find>
+      <find>$json['jml_pes']</find>
+      <find>dis</find>
+      <find>distr</find>
+      <find>nilai</find>
+      <find>function hasil</find>
+      <find>find_ruang</find>
+      <find>download_hasil</find>
+      <find>download_has</find>
+      <find>$server_id</find>
+      <find>$dtQM</find>
+      <find>gen_rank</find>
+      <find>start</find>
+      <find>gen_h</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>return 0;</replace>
+      <replace>../fonts/tinos/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\ujikom\application\views</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/views/server/form_add_data_peserta.php" />
+        <option value="$PROJECT_DIR$/application/views/server/data_peserta.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/distribusi.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/add_data.php" />
+        <option value="$PROJECT_DIR$/application/views/server/add_data.php" />
+        <option value="$PROJECT_DIR$/application/views/siswa/data_home.php" />
+        <option value="$PROJECT_DIR$/assets/fonts/tinos/tinos-v12-latin-regular.css" />
+        <option value="$PROJECT_DIR$/application/controllers/Image.php" />
+        <option value="$PROJECT_DIR$/../ujian_sync/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/copy_bank_soal.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Siswa.php" />
+        <option value="$PROJECT_DIR$/application/views/server/home.php" />
+        <option value="$PROJECT_DIR$/application/views/server/data_ruang.php" />
+        <option value="$PROJECT_DIR$/application/views/server/pengawas.php" />
+        <option value="$PROJECT_DIR$/application/views/siswa/home.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/cetak_berita_acara.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/data_hasil.php" />
+        <option value="$PROJECT_DIR$/application/models/Dbase.php" />
+        <option value="$PROJECT_DIR$/assets/math.css" />
+        <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/edit_bank_soal.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/add_bank_soal.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/add_pg.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/edit_pg.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/home.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/add_data.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Media.php" />
+        <option value="$PROJECT_DIR$/application/views/media/home.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/data_bank_soal.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/analisis_table.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/analisis_soal.php" />
+        <option value="$PROJECT_DIR$/application/views/media/data_home.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/cetak_hadir_peserta.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/cetak_hadir_peserta_all.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/cetak_tata_tertib.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/hasil.php" />
+        <option value="$PROJECT_DIR$/application/views/login.php" />
+        <option value="$PROJECT_DIR$/application/views/nav/left_sidebar.php" />
+        <option value="$PROJECT_DIR$/application/views/nav/header.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Hasil_ujian.php" />
+        <option value="$PROJECT_DIR$/application/views/hasil_ujian/home.php" />
+        <option value="$PROJECT_DIR$/application/views/hasil_ujian/data_home.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Server.php" />
+        <option value="$PROJECT_DIR$/application/views/server/cetak_kartu.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/cetak_kartu_soal.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Mapel.php" />
+        <option value="$PROJECT_DIR$/application/views/mapel/bank_soal.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/data_home.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/home.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Quiz.php" />
+        <option value="$PROJECT_DIR$/application/views/quiz/cetak_kartu_soal.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mapel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="nav" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="quiz" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="siswa" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ujian_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ujian_server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/quiz" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ujian_server\application\views\quiz" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ujian_server\application\views\mapel" />
+      <recent name="C:\xampp\htdocs\ujian_server\application\views\hasil_ujian" />
+      <recent name="C:\xampp\htdocs\ujian_server\application\controllers" />
+      <recent name="C:\xampp\htdocs\ujian_server\application\views\quiz" />
+      <recent name="C:\xampp\htdocs\ujian_server\application\views\media" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1548747832714" text="tooltip" recursive="true" caseInsensitive="true" type="HTML" history="1" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2374d912-19e9-44cf-b931-4f9694341dec" name="Default" comment="" />
+      <created>1546917722591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546917722591</updated>
+      <workItem from="1546917723930" duration="17781000" />
+      <workItem from="1546994048040" duration="26580000" />
+      <workItem from="1547079589616" duration="2913000" />
+      <workItem from="1548126515407" duration="3558000" />
+      <workItem from="1548223814541" duration="9940000" />
+      <workItem from="1548289667195" duration="11452000" />
+      <workItem from="1548375654854" duration="18190000" />
+      <workItem from="1548551942819" duration="23685000" />
+      <workItem from="1548739366711" duration="12124000" />
+      <workItem from="1548809910372" duration="17550000" />
+      <workItem from="1548896047892" duration="18440000" />
+      <workItem from="1548980898016" duration="8554000" />
+      <workItem from="1549066523552" duration="599000" />
+      <workItem from="1549070961210" duration="18274000" />
+      <workItem from="1549103617247" duration="12542000" />
+      <workItem from="1549193410466" duration="4168000" />
+      <workItem from="1549335795429" duration="599000" />
+      <workItem from="1549415984510" duration="6061000" />
+      <workItem from="1549425353200" duration="17079000" />
+      <workItem from="1549445284344" duration="9127000" />
+      <workItem from="1549497693109" duration="12209000" />
+      <workItem from="1549523110127" duration="6707000" />
+      <workItem from="1549533514756" duration="4476000" />
+      <workItem from="1549597591941" duration="7886000" />
+      <workItem from="1549618163540" duration="4226000" />
+      <workItem from="1549698835855" duration="598000" />
+      <workItem from="1549789172284" duration="8777000" />
+      <workItem from="1549844294195" duration="13000" />
+      <workItem from="1549941834274" duration="2442000" />
+      <workItem from="1550025048542" duration="330000" />
+      <workItem from="1550039284942" duration="75000" />
+      <workItem from="1550104057997" duration="17293000" />
+      <workItem from="1550200560821" duration="605000" />
+      <workItem from="1550210559890" duration="451000" />
+      <workItem from="1550213122368" duration="1264000" />
+      <workItem from="1550277914032" duration="469000" />
+      <workItem from="1550278962212" duration="3360000" />
+      <workItem from="1550450747006" duration="3412000" />
+      <workItem from="1550462647035" duration="2389000" />
+      <workItem from="1550629677372" duration="14437000" />
+      <workItem from="1550709186252" duration="6803000" />
+      <workItem from="1550804561051" duration="101000" />
+      <workItem from="1550883200585" duration="26191000" />
+      <workItem from="1550973920719" duration="2846000" />
+      <workItem from="1551073140923" duration="42000" />
+      <workItem from="1551227819401" duration="2995000" />
+      <workItem from="1551750978780" duration="10033000" />
+      <workItem from="1552009183743" duration="1204000" />
+      <workItem from="1552055989455" duration="815000" />
+      <workItem from="1552273001302" duration="7225000" />
+      <workItem from="1552347641669" duration="1249000" />
+      <workItem from="1552360763671" duration="715000" />
+      <workItem from="1552450263218" duration="9682000" />
+      <workItem from="1552519004211" duration="1514000" />
+      <workItem from="1552533535731" duration="10931000" />
+      <workItem from="1552700629241" duration="613000" />
+      <workItem from="1552884316825" duration="1412000" />
+      <workItem from="1552961591936" duration="4743000" />
+      <workItem from="1553142280781" duration="1345000" />
+      <workItem from="1553143893270" duration="301000" />
+      <workItem from="1556001998319" duration="8484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="429879000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23645681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/siswa/data_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nilai2/application/views/tenaga/cetak_kartu_siswa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nilai2/application/views/tenaga/pd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="338" column="44" lean-forward="true" selection-start-line="337" selection-start-column="8" selection-end-line="338" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/server/peserta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/server/data_peserta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/server/data_pengawas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/server/data_ruang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="252" lean-forward="false" selection-start-line="12" selection-start-column="252" selection-end-line="12" selection-end-column="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/server/pengawas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="67" lean-forward="false" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/siswa/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="38" column="272" lean-forward="false" selection-start-line="38" selection-start-column="272" selection-end-line="38" selection-end-column="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/server/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="198" column="44" lean-forward="true" selection-start-line="197" selection-start-column="8" selection-end-line="198" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nilai2/application/controllers/Nilai_rapor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ujikom/application/controllers/Nilai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="244" column="39" lean-forward="true" selection-start-line="244" selection-start-column="39" selection-end-line="244" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Dbase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="78" column="22" lean-forward="false" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/math.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4726">
+          <caret line="278" column="0" lean-forward="true" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/data_hasil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/edit_bank_soal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="110" column="63" lean-forward="false" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/add_pg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="99" column="63" lean-forward="false" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/edit_pg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="101" column="63" lean-forward="false" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/add_bank_soal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="108" column="63" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/add_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="36" column="171" lean-forward="false" selection-start-line="36" selection-start-column="171" selection-end-line="36" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/media/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nilai2/application/controllers/Nilai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/analisis_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/analisis_soal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="60" lean-forward="false" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/media/data_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="80" lean-forward="false" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/cetak_hadir_peserta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="135" column="54" lean-forward="false" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/cetak_hadir_peserta_all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4318">
+          <caret line="254" column="40" lean-forward="false" selection-start-line="254" selection-start-column="40" selection-end-line="254" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/cetak_tata_tertib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="191" column="25" lean-forward="true" selection-start-line="191" selection-start-column="25" selection-end-line="191" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/hasil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="289" column="79" lean-forward="false" selection-start-line="289" selection-start-column="79" selection-end-line="289" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/nav/left_sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/nav/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Hasil_ujian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="91" lean-forward="false" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
+          <folding>
+            <marker date="1552965718367" expanded="true" signature="1505:1738" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1740" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1753" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1769" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1771" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1781" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1802" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1812" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1813" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1919" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:1920" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:2133" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:2135" ph="SELECT qn.qn... tb_quiz_nilai" />
+            <marker date="1552965718367" expanded="true" signature="1505:2149" ph="SELECT qn.qn... tb_quiz_nilai" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/hasil_ujian/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="44" lean-forward="false" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Siswa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/hasil_ujian/data_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <marker date="1552965737312" expanded="true" signature="64:100" ph="..." />
+            <marker date="1552965737312" expanded="true" signature="64:101" ph="..." />
+            <marker date="1552965737312" expanded="true" signature="64:146" ph="..." />
+            <marker date="1552965737312" expanded="true" signature="64:208" ph="..." />
+            <marker date="1552965737312" expanded="true" signature="64:209" ph="..." />
+            <marker date="1552965737312" expanded="true" signature="64:253" ph="..." />
+            <marker date="1552965737312" expanded="true" signature="64:269" ph="..." />
+            <marker date="1552965737312" expanded="true" signature="64:311" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="572" column="52" lean-forward="false" selection-start-line="572" selection-start-column="52" selection-end-line="572" selection-end-column="52" />
+          <folding>
+            <marker date="1556002250061" expanded="true" signature="1256:1847" ph="SELECT s.ser... tb_server" />
+            <marker date="1556002250061" expanded="true" signature="4679:5195" ph="SELECT s.ser... tb_server" />
+            <marker date="1556002250061" expanded="true" signature="11529:12123" ph="SELECT sr.sr... tb_server_ruang" />
+            <marker date="1556002250061" expanded="true" signature="13732:14261" ph="SELECT sr.sr... tb_server_ruang" />
+            <marker date="1556002250061" expanded="true" signature="18467:19131" ph="SELECT rm.rm... tb_ruang_member" />
+            <marker date="1556002250061" expanded="true" signature="21055:22045" ph="SELECT COUNT... tb_siswa" />
+            <marker date="1556002250061" expanded="true" signature="21236:21949" ph="SELECT rm.si... tb_ruang_member" />
+            <marker date="1556002250061" expanded="true" signature="22950:24079" ph="SELECT s1.si... tb_siswa" />
+            <marker date="1556002250061" expanded="true" signature="23244:23957" ph="SELECT rm.si... tb_ruang_member" />
+            <marker date="1556002250061" expanded="true" signature="28090:28486" ph="SELECT s.sis... tb_ruang_member" />
+            <marker date="1556002250061" expanded="true" signature="31123:31741" ph="SELECT p.pn_... tb_ruang_member" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/server/cetak_kartu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="105" column="66" lean-forward="false" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="66" />
+          <folding>
+            <marker date="1556002653828" expanded="true" signature="7159:7168" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/cetak_berita_acara.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="150" column="24" lean-forward="false" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Mapel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="993" column="0" lean-forward="false" selection-start-line="993" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
+          <folding>
+            <marker date="1556069932140" expanded="true" signature="1152:1781" ph="SELECT m.map... tb_mapel" />
+            <marker date="1556069932140" expanded="true" signature="2469:2656" ph="SELECT m.map... tb_mapel" />
+            <marker date="1556069932140" expanded="true" signature="4172:4638" ph="SELECT s.soa... tb_soal" />
+            <marker date="1556069932140" expanded="true" signature="8235:8480" ph="SELECT s.soa... tb_soal" />
+            <marker date="1556069932140" expanded="true" signature="38428:38941" ph="SELECT q.qui... tb_quiz_mapel" />
+            <marker date="1556069932140" expanded="true" signature="40672:41075" ph="SELECT DISTI... tb_quiz_soal" />
+            <marker date="1556069932140" expanded="true" signature="42267:42562" ph="SELECT s.sis... tb_quiz_nilai" />
+            <marker date="1556069932140" expanded="true" signature="45854:46236" ph="SELECT pg.pg... tb_quiz_hasil" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/data_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+          <folding>
+            <marker date="1556070212251" expanded="true" signature="485:571" ph="..." />
+            <marker date="1556070212251" expanded="true" signature="485:601" ph="..." />
+            <marker date="1556070212251" expanded="true" signature="485:750" ph="..." />
+            <marker date="1556070212251" expanded="false" signature="977:983" ph=" " />
+            <marker date="1556070212251" expanded="false" signature="1133:1139" ph=" " />
+            <marker date="1556070212251" expanded="true" signature="1270:1302" ph="..." />
+            <marker date="1556070212251" expanded="true" signature="1270:2063" ph="..." />
+            <marker date="1556070212251" expanded="true" signature="2105:2427" ph="..." />
+            <marker date="1556070212251" expanded="true" signature="2166:2405" ph="{...}" />
+            <marker date="1556070212251" expanded="true" signature="2266:2328" ph="{...}" />
+            <marker date="1556070212251" expanded="true" signature="2334:2399" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="192" column="105" lean-forward="false" selection-start-line="192" selection-start-column="105" selection-end-line="192" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/bank_soal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="127" column="42" lean-forward="true" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel/data_bank_soal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <marker date="1550887482000" expanded="true" signature="1134:1950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="1233" column="122" lean-forward="false" selection-start-line="1233" selection-start-column="122" selection-end-line="1233" selection-end-column="122" />
+          <folding>
+            <marker date="1556075400952" expanded="true" signature="1288:1797" ph="SELECT q.qui... tb_quiz" />
+            <marker date="1556075400952" expanded="true" signature="2104:2392" ph="SELECT qm.ma... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="3019:3563" ph="SELECT m.map... tb_mapel" />
+            <marker date="1556075400952" expanded="true" signature="3230:3481" ph="SELECT m2.ma... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="6715:7077" ph="SELECT q.qui... tb_quiz" />
+            <marker date="1556075400952" expanded="true" signature="7187:7469" ph="SELECT qm.ma... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="12755:13243" ph="SELECT qm.qm... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="23124:23561" ph="SELECT sr.sr... tb_server_ruang" />
+            <marker date="1556075400952" expanded="true" signature="23949:24298" ph="SELECT s.sis... tb_ruang_member" />
+            <marker date="1556075400952" expanded="true" signature="26897:27096" ph="SELECT qm.qm... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="29173:29372" ph="SELECT qm.qm... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="30284:30474" ph="SELECT qm.qm... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="30927:31699" ph="SELECT s.sis... tb_ruang_member" />
+            <marker date="1556075400952" expanded="true" signature="31819:32523" ph="SELECT s.sis... tb_ruang_member" />
+            <marker date="1556075400952" expanded="true" signature="38953:39273" ph="SELECT qm.qm... tb_quiz_mapel" />
+            <marker date="1556075400952" expanded="true" signature="41655:42070" ph="SELECT s.soa... tb_soal" />
+            <marker date="1556075400952" expanded="true" signature="43936:44508" ph="SELECT s.sis... tb_ruang_member" />
+            <marker date="1556075400952" expanded="true" signature="44667:45212" ph="SELECT s.sis... tb_ruang_member" />
+            <marker date="1556075400952" expanded="true" signature="46116:46555" ph="SELECT pg.pg... tb_quiz_hasil" />
+            <marker date="1556075400952" expanded="true" signature="49457:49872" ph="SELECT s.soa... tb_soal" />
+            <marker date="1556075400952" expanded="true" signature="51389:51827" ph="SELECT s.sis... tb_siswa" />
+            <marker date="1556075400952" expanded="true" signature="52918:53372" ph="SELECT pg.pg... tb_quiz_hasil" />
+            <marker date="1556075400952" expanded="true" signature="57752:58206" ph="SELECT pg.pg... tb_quiz_hasil" />
+            <marker date="1556075400952" expanded="true" signature="63260:63720" ph="SELECT s.sis... tb_server" />
+            <marker date="1556075400952" expanded="true" signature="64338:64806" ph="SELECT m.map... tb_quiz" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/quiz/cetak_kartu_soal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="186" column="60" lean-forward="false" selection-start-line="186" selection-start-column="60" selection-end-line="186" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#2;n#table#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1556075547994" expanded="true" signature="9574:9689" ph="..." />
+            <marker date="1556075547994" expanded="true" signature="9599:9664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
